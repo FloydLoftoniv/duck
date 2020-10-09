@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+    
+}
+
+header{
+  margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px;
+    background: rgb(255, 255, 255);
+    color: grey;
+}
+header ul {
+    margin: auto;
+    padding-left: 600px;
+    list-style: none;
+}
+
+header li {
+    display: inline;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+.middle{
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px;
+    background: #0777b7; 
+    color: #f4f4f6;
+    display: flex;
+    justify-content: center;
+}
+.middle ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.middle li {
+    margin-left: 60px;
+   padding-left: 120px;
+    padding-right: 120px;
+}
+.middle img{
+    float: right;
+}
+
+.bar{
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 10px;
+    background: rgb(255, 255, 255);
+    
+}
+.bar ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.bar li {
+    display: inline;
+    padding-left: 120px;
+    padding-right: 120px;
+    border-right: 2px solid #000;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+.bar a{
+    color: grey;
+}
+
+.Who {
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 10px;
+    background: #f4f4f6;
+    
+}
+
+.who h3 {
+    font-weight: 400;
+    margin: 0;
+}
+
+.center{
+    position: relative;
+ top: 10px;
+ left: 10px;
+ text-size-adjust: 40px;
+display: flex;
+}
+
+.center p{
+    text-decoration-color: rgba(128, 128, 128, 0.884);
+}
+
+.center li {
+    position: absolute;
+    float: right;
+    justify-content: space-evenly;
+}
+ footer{
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 10px;
+    background: #f4f4f6;
+ }
+
+.produrt{
+ position: relative;
+ margin-left: 200px;
+ text-size-adjust: 40px;
+display: flex;
+list-style: none;
+}
+
+.product li {
+    position: absolute;
+    float: right;
+    justify-content: right;
+}
+
+.last{
+    position: absolute;
+    float: left;
+    justify-content: left;
+}
+.last ul{
+    list-style: none;
+}
+.last li{
+    padding-top:10px ;
+}
